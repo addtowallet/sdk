@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Update logo references in documentation to reflect new branding. (`2ea20f7`)
 - Update documentation links and site base for AddToWallet SDK. (`71b8771`)
 - Fix capitalization in documentation for Addtowallet TypeScript Client. (`7f14b42`)
 - Enhance documentation for AddToWallet TypeScript Client. (`763df56`)
