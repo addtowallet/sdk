@@ -1,4 +1,4 @@
-![Logo](https://cdn.addtowallet.io/img/addtowallet-sdk-logo.png)
+![Logo](https://cdn.addtowallet.io/img/addtowallet-sdk-logo-2.png)
 
 **Full documentation:** [https://addtowallet.github.io/sdk/](https://addtowallet.github.io/sdk/)
 
@@ -12,8 +12,8 @@
 
 ## Documentation
 
-| Topic               | Link                                                                           |
-| ------------------- | ------------------------------------------------------------------------------ |
+| Topic               | Link                                                                       |
+| ------------------- | -------------------------------------------------------------------------- |
 | Getting started     | [Introduction](https://addtowallet.github.io/sdk/)                         |
 | Installation        | [Installation](https://addtowallet.github.io/sdk/installing)               |
 | Setup               | [Setup](https://addtowallet.github.io/sdk/setup)                           |

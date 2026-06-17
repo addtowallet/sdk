@@ -1,4 +1,4 @@
-![Logo](https://cdn.addtowallet.io/img/addtowallet-sdk-logo.png)
+![Logo](https://cdn.addtowallet.io/img/addtowallet-sdk-logo-2.png)
 
 # Addtowallet TypeScript Client
 
