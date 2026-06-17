@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Rename package from `@basetime/a2w-api-ts` to `@addtowallet/sdk` and update related documentation references. Adjusted import statements and installation instructions across multiple files to reflect the new package name.. (`b206f81`)
 - Update logo references in documentation to reflect new branding. (`2ea20f7`)
 - Update documentation links and site base for AddToWallet SDK. (`71b8771`)
 - Fix capitalization in documentation for Addtowallet TypeScript Client. (`7f14b42`)

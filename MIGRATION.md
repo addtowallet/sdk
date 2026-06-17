@@ -35,7 +35,7 @@ export type Foo = z.infer<typeof FooSchema>;
 ```
 
 Both the schema and the type are re-exported from the package root. Type-only consumers
-need no changes — `import type { Campaign } from '@basetime/a2w-api-ts'` still works.
+need no changes — `import type { Campaign } from '@addtowallet/sdk'` still works.
 
 At request time, the SDK runs every response through `schema.safeParse(...)`. On a
 **success** the parsed value is returned; on a **failure** the issue list is logged via
@@ -78,7 +78,7 @@ endpoint file has been renamed. The public per-endpoint method surface
   [`Requester` interface expanded and moved](#requester-interface-expanded-and-moved).
 - You subclass `Endpoint` to add a custom endpoint. → See
   [`Endpoint` base class refactor (subclassers only)](#endpoint-base-class-refactor-subclassers-only).
-- You import from `@basetime/a2w-api-ts/dist/endpoint/Scanners`. → See
+- You import from `@addtowallet/sdk/dist/endpoint/Scanners`. → See
   [`Scanners` file rename](#scanners-file-rename).
 - You call any per-campaign helper on `client.campaigns` (passes, claims,
   jobs, stats, enrollments) or set `client.campaigns.jwtEncode`. → See

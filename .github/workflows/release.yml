@@ -5,7 +5,7 @@ name: Release
 # back to `main`, then publishes to npm.
 #
 # Required repository secrets:
-#   - NPM_TOKEN: npm automation token with publish access to @basetime/a2w-api-ts.
+#   - NPM_TOKEN: npm automation token with publish access to @addtowallet/sdk.
 #
 # If `main` is branch-protected such that GITHUB_TOKEN cannot push, create a
 # personal access token (or GitHub App token) with bypass permissions, store it

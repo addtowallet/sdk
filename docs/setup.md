@@ -9,7 +9,7 @@ Create an API key and secret in your organization's settings in the Addtowallet 
 Store both values in environment variables rather than hardcoding them in source:
 
 ```ts
-import { Client, KeysProvider } from '@basetime/a2w-api-ts';
+import { Client, KeysProvider } from '@addtowallet/sdk';
 
 const auth = new KeysProvider(process.env.A2W_API_KEY!, process.env.A2W_API_SECRET!);
 const client = new Client(auth);

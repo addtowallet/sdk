@@ -1,9 +1,9 @@
 # Installing
 
 ```bash
-npm i @basetime/a2w-api-ts
+npm i @addtowallet/sdk
 # or
-yarn add @basetime/a2w-api-ts
+yarn add @addtowallet/sdk
 # or
-pnpm add @basetime/a2w-api-ts
+pnpm add @addtowallet/sdk
 ```

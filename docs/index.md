@@ -2,7 +2,7 @@
 
 # Addtowallet TypeScript Client
 
-`@basetime/a2w-api-ts` is a Node.js and TypeScript client for the [Addtowallet](https://addtowallet.io) platform. Construct a `Client`, authenticate with API keys or OAuth, and call typed helpers for campaigns, passes, templates, scanners, workflows, and more.
+`@addtowallet/sdk` is a Node.js and TypeScript client for the [Addtowallet](https://addtowallet.io) platform. Construct a `Client`, authenticate with API keys or OAuth, and call typed helpers for campaigns, passes, templates, scanners, workflows, and more.
 
 ## Features
 
@@ -21,13 +21,13 @@ Node.js 18 or later.
 Install the package:
 
 ```bash
-pnpm add @basetime/a2w-api-ts
+pnpm add @addtowallet/sdk
 ```
 
 Create an API key and secret in your organization's AddToWallet dashboard, then wire up a client:
 
 ```ts
-import { Client, KeysProvider } from '@basetime/a2w-api-ts';
+import { Client, KeysProvider } from '@addtowallet/sdk';
 
 const auth = new KeysProvider(process.env.A2W_API_KEY!, process.env.A2W_API_SECRET!);
 const client = new Client(auth);
@@ -65,4 +65,4 @@ See [Setup](./setup) for authentication details, custom base URLs, and OAuth.
 
 ## Source and issues
 
-The package is published on npm as [`@basetime/a2w-api-ts`](https://www.npmjs.com/package/@basetime/a2w-api-ts). Source, releases, and issue tracking live on [GitHub](https://github.com/basetime/a2w-api-ts).
+The package is published on npm as [`@addtowallet/sdk`](https://www.npmjs.com/package/@addtowallet/sdk). Source, releases, and issue tracking live on [GitHub](https://github.com/basetime/a2w-api-ts).

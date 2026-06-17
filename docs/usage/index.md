@@ -5,7 +5,7 @@
 Constructs a client with an OAuth provider. The auth provider is optional for public endpoints; wire one via `client.http.setAuth(...)` before calling authenticated routes.
 
 ```ts
-import { Client, OAuthProvider } from '@basetime/a2w-api-ts';
+import { Client, OAuthProvider } from '@addtowallet/sdk';
 
 const appId = 'a2w-inspector';
 const oauth = new OAuthProvider('a2w-inspector');

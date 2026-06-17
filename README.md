@@ -4,7 +4,7 @@
 
 **TypeScript client for the AddToWallet API**
 
-`@basetime/a2w-api-ts` is a library for communicating with the AddToWallet platform from Node.js and TypeScript:
+`@addtowallet/sdk` is a library for communicating with the AddToWallet platform from Node.js and TypeScript:
 
 - **Full API coverage:** Campaigns, passes, templates, scanners, workflows, webhooks, and more.
 - **Runtime validation:** Zod schemas for every response type with optional strict parsing.
