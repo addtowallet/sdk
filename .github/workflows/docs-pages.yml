@@ -19,7 +19,7 @@ name: Docs Pages
 #     -f source_ref=main
 #
 # Deployed site entry point:
-#   https://basetime.github.io/a2w-api-ts/
+#   https://addtowallet.github.io/sdk/
 
 on:
   push:

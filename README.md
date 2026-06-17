@@ -14,11 +14,11 @@
 
 | Topic               | Link                                                                           |
 | ------------------- | ------------------------------------------------------------------------------ |
-| Getting started     | [Introduction](https://basetime.github.io/a2w-api-ts/)                         |
-| Installation        | [Installation](https://basetime.github.io/a2w-api-ts/installing)               |
-| Setup               | [Setup](https://basetime.github.io/a2w-api-ts/setup)                           |
-| API usage           | [Usage](https://basetime.github.io/a2w-api-ts/usage/)                          |
-| Response validation | [Runtime validation](https://basetime.github.io/a2w-api-ts/runtime-validation) |
+| Getting started     | [Introduction](https://addtowallet.github.io/sdk/)                         |
+| Installation        | [Installation](https://addtowallet.github.io/sdk/installing)               |
+| Setup               | [Setup](https://addtowallet.github.io/sdk/setup)                           |
+| API usage           | [Usage](https://addtowallet.github.io/sdk/usage/)                          |
+| Response validation | [Runtime validation](https://addtowallet.github.io/sdk/runtime-validation) |
 
 Canonical docs live in [`docs/`](./docs/). Edit those pages directly, then run `pnpm docs:build:nav` to refresh the VitePress sidebar.
 
