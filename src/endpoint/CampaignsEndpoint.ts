@@ -116,7 +116,7 @@ export default class CampaignsEndpoint extends Endpoint {
     id: string,
     body: Omit<Partial<Campaign>, 'templates'> & { templates?: string[] },
   ): Promise<Campaign> => {
-    return await this.do.post(`/${id}`, body, CampaignSchema);
+    return await this.do.post(`/${id}`, body);
   };
 
   /**
@@ -140,7 +140,7 @@ export default class CampaignsEndpoint extends Endpoint {
       placeholders: Record<string, string>;
     },
   ): Promise<Campaign> => {
-    return await this.do.post(`/simple`, body, CampaignSchema);
+    return await this.do.post(`/simple`, body);
   };
 
   /**
