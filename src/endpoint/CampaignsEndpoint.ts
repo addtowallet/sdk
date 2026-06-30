@@ -122,14 +122,9 @@ export default class CampaignsEndpoint extends Endpoint {
   /**
    * Creates or updates a "simple" campaign from a template and placeholder values.
    *
-   * Pass `'__new'` as the ID to create a new campaign; pass an existing campaign ID to
-   * update one in place.
-   *
-   * @param id The campaign ID, or `'__new'` to create a new campaign.
    * @param body The simple campaign body.
    */
   public createSimple = async (
-    id: string,
     body: {
       /**
        * Partial campaign fields applied to the new or existing campaign.
@@ -145,7 +140,7 @@ export default class CampaignsEndpoint extends Endpoint {
       placeholders: Record<string, string>;
     },
   ): Promise<Campaign> => {
-    return await this.do.post(`/${id}/simple`, body, CampaignSchema);
+    return await this.do.post(`/simple`, body, CampaignSchema);
   };
 
   /**

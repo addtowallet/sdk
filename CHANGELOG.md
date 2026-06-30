@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Update campaign creation method in CampaignsEndpoint to simplify API usage. (`8e31e72`)
 - Update logo references across documentation to the new branding. (`e2f8b21`)
 - Rename package from `@basetime/a2w-api-ts` to `@addtowallet/sdk` and update related documentation references. Adjusted import statements and installation instructions across multiple files to reflect the new package name.. (`b206f81`)
 - Update logo references in documentation to reflect new branding. (`2ea20f7`)
